@@ -1,15 +1,47 @@
-*{
-  margin: 0px;
-  padding: 0px;
+.col-xs-12.col-sm-6.col-md-8
+{
+    height: 450px;
+    margin: 25px 0;
 }
-html{
-font-size:16px!important;
-height:100vh;
+
+.row {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
 }
-body {
-  font-family: 'Crete Round', serif;
+.row iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
+
 #map {
-   width: 500px;
-   height: 500px;
+    height : 100%;
+} 
+
+.contentHolder {
+    padding: 30px;
+}
+
+.instruction {
+    padding: 23px 0px;
+    font-weight: bold;
+}
+
+.col-xs-6{   
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px !important;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.notes {
+    margin: 20px 0;
+}
+.instruction, .text {
+    font-size: 16px;
 }

@@ -1,7 +1,39 @@
 <div class="surround">
-  <h3>My Google Maps Demo</h3>
+  <h3 style=" text-align: center; margin-bottom: 35px; ">tech.La weather application</h3>
+  <div class="instruction"> Drop the pin anywhere on the map to find out the location's weather.</div>
     <!--The div element for the map -->
-    <div id="map"></div>
-    <div class"latitude"></div>
-    <div class="longitude"></div>
+    <div class"notes"> 
+      <div class="text">The backend of this app is created using <b>Springboot & maven.</b> The url of the respository is at <a href="https://github.com/adhithyakrishna/Tech.LAWeatherApp" target="_blank"  > TechLa backend.</a></div>
+      <div class="text">The weather forecast was obtained from <a href="https://darksky.net/ " target="_blank">Darksky</a> api.</div>
+      <div class="text">The frontend of this app is created using <b>Jquery, Html and Bootstrap</b>. The  url of the respository is at <a href="https://github.com/adhithyakrishna/Tech.LAWeatherAppFrontend" target="_blank"> TechLa frontend.</a></div>
+      <div class="text">The frontend application was hosted on the server using <b>Nodejs & ExpressJs</b> was used for routing.</div>
+      
+    </div>
+
+    <div class="row">
+       <div class="col-xs-12 col-sm-6 col-md-8">
+          <div id="map"></div>
+      </div>
+      <div class="col-xs-6 col-md-4">
+          <div class="weatherInfo">
+             <p>Latitude : <span class="latitude" style = "color:#2962FF;"></span>
+             <p>Longitude : <span class="longitude" style = "color:#2962FF;"></span>
+             <p>Timezone : <span class="timezone" style = "color:#2962FF;"></span>
+             <p>Current Weather : <span class="currentWeather" style = "color:#2962FF;"></span>
+             <p>Prediction for the day : <span class="nextHour" style = "color:#2962FF;"></span>
+             <p>Summary of the weather : <span class="weekly" style = "color:#2962FF;"></span>
+             <p>Precipitation Intensity : <span class="precpIntensity" style = "color:#2962FF;"></span>
+             <p>Precipitation Probability : <span class="precpProbab" style = "color:#2962FF;"></span>
+             <p>Current Temperature : <span class="currentTemp" style = "color:#2962FF;"></span>
+             <p>Humidity : <span class="humid" style = "color:#2962FF;"></span>
+             <p>Dewpoint : <span class="dew" style = "color:#2962FF;"></span>
+             <p>Pressure : <span class="press" style = "color:#2962FF;"></span>
+             <p>WindSpeed : <span class="wind" style = "color:#2962FF;"></span>
+             <p>Visibility : <span class="visiblity" style = "color:#2962FF;"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{!-- Please hire me for an internship --}}
 </div>
